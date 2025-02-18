@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Open the video
-video_path = "0_1_jackal_circle.mp4"  # Path to your video file
+video_path = "kuramoto7.mp4"  # Path to your video file
 cap = cv2.VideoCapture(video_path)
 
 # Check if the video was opened successfully
