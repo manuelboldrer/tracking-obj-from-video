@@ -63,13 +63,12 @@ while cap.isOpened():
             x, y, w, h = [int(v) for v in bbox]
             center = (x + w // 2, y + h // 2)
             radius = int(min(w, h) / 2)
-            radius = 45
 
             # Add the current position to the path
             paths[i].append(center)
 
             # Draw the circle around the object
-            # cv2.circle(frame, center, radius, (255, 140, 0), 5)  # Black circle around the object
+            cv2.circle(frame, center, radius, (255, 140, 0), 5)  # Black circle around the object
 
             # Draw the path (line connecting previous positions)
             for j in range(1, len(paths[i])):
