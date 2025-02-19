@@ -42,10 +42,10 @@ Follow these simple steps to get started with the object tracking script:
 2. **Run the Script**  
    Execute the Python script by running.
 
-3. **Indicate the Number of Objects to Track**
+3. **Indicate the Number of Objects to Track** <br>
    When prompted, enter the number of objects you want to track in the video.
 
-4. **Select the Objects to Track**
+4. **Select the Objects to Track** <br>
    Use your mouse to manually select the objects you want to track by drawing bounding boxes (ROIs) around them in the first frame.
 
 
