@@ -60,3 +60,5 @@ Follow these simple steps to get started with the object tracking script:
 The algorithm is very basic and not always robust. If you have any suggestions
 on how to improve the robustness, they are very welcome.
 
+Some parts of this code were generated with assistance from ChatGPT.
+
